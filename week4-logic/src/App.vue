@@ -12,11 +12,11 @@ import { ref }  from 'vue';
 
   // 3. 영화 배열 데이터(placehold.co 이미지와 평점 포함)
   const movies = ref([
-    { id: 1, title: '다크 나이트', genre: '액션', rating: 9.5, poster: 'https://'},
-    { id: 2, title: '인터스텔라', genre: 'SF', rating: 8.6, poster: 'https://'},
-    { id: 3, title: '어바웃 타임', genre: '로맨스', rating: 7.5, poster: 'https://'},
-    { id: 4, title: '인셉션', genre: 'SF', rating: 9.2, poster: 'https://'},
-    { id: 5, title: '라라랜드', genre: '로맨스', rating: 6.8, poster: 'https://'},
+    { id: 1, title: '다크 나이트', genre: '액션', rating: 9.5, poster: 'https://placehold.co/150x220/222222/FFFFFF?text=Dark+Knight' },
+    { id: 2, title: '인터스텔라', genre: 'SF', rating: 8.6, poster: 'https://placehold.co/150x220/222222/FFFFFF?text=Interstellar' },
+    { id: 3, title: '어바웃 타임', genre: '로맨스', rating: 7.5, poster: 'https://placehold.co/150x220/222222/FFFFFF?text=About+Time' },
+    { id: 4, title: '인셉션', genre: 'SF', rating: 9.2, poster: 'https://placehold.co/150x220/222222/FFFFFF?text=Inception' },
+    { id: 5, title: '라라랜드', genre: '로맨스', rating: 6.8, poster: 'https://placehold.co/150x220/222222/FFFFFF?text=La+LaLand' },
   ])
 
   // 4. 모달창 열기 함수
@@ -193,7 +193,7 @@ import { ref }  from 'vue';
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   }
   .modal-content img{
-    width: 150%;
+    width: 100%;
     border-radius: 8px;
     margin-bottom: 15px;
   }
